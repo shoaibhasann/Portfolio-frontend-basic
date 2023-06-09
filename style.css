@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkalami', serif;
+    font-size: 16px;
+}
+body{
+   overflow-x: hidden;
+}
+header{
+    display: flex;
+}
+p{
+    font-size: 46px;
+    margin-left: 27px;
+    margin-top: 23px;
+}
+span{
+    font-size: 41px;
+color: #f50057;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+margin-top: 23px;}
+
+
+.navbar{
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #f50057;
+    padding: 25px 30px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+.navbar li a:hover{
+    background: #f50057;
+    color: white;
+    box-shadow: 0px 0px 5px #f50057,
+                0px 0px 25px #f50057,
+                0px 0px 50px #f50057,
+                0px 0px 200px #f50057;
+    border-radius: 25px;
+}
+section img{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 580px;
+    margin-top: 45px;
+}
+.bio{
+    margin-top: -377px;
+    font-size: 20px;
+    margin-left: 680px;
+}
+.social{
+    position: absolute;
+    right: 12%;
+    margin: 20px;
+padding: 20px;
+}
+.fa-instagram{
+    font-size: 35px;
+    margin: 8px;
+    background-color: #f50057;
+    border-radius: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    box-shadow: 0px 0px 5px #f50057,
+    0px 0px 25px #f50057,
+    0px 0px 50px #f50057,
+    0px 0px 200px #f50057;
+}
+.fa-square-facebook{
+    font-size: 35px;
+    margin: 8px;
+    background-color: rgb(44, 100, 203);
+    border-radius: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+.fa-square-facebook:hover{
+    box-shadow: 0px 0px 5px  rgb(44, 100, 203) ,
+    0px 0px 25px  rgb(44, 100, 203),
+    0px 0px 50px  rgb(44, 100, 203),
+    0px 0px 200px  rgb(44, 100, 203);
+}
+.fa-github{
+    font-size: 35px;
+    margin: 8px;
+    padding: 8px;
+    background-color: #333;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.fa-github:hover{
+    box-shadow: 0px 0px 5px #333 ,
+                0px 0px 25px #333 ,
+                0px 0px 50px #333 ,
+                0px 0px 200px #333 ;
+}
+.fa-linkedin{
+    font-size: 35px;
+    margin: 8px;
+    padding-inline-start: 8px;
+    background-color: #0e76a8;
+    padding: 8px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    box-shadow:  0px 0px 5px #0e76a8,
+    0px 0px 25px #0e76a8,
+    0px 0px 50px #0e76a8 ,
+    0px 0px 200px #0e76a8 ;
+}
+.fa-google{
+    font-size: 35px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 40px;
+    background-color: #ea4345;
+    cursor: pointer;
+}
+.fa-google:hover{
+    box-shadow:  0px 0px 5px #ea4345 ,
+    0px 0px 25px #ea4345 ,
+    0px 0px 50px #ea4345 ,
+    0px 0px 200px #ea4345 ;
+}
+.contact{
+    position: absolute;
+    right: 155px;
+    padding: 20px;
+    margin: 140px;
+
+
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    background-color: #f50057;
+    padding: 18px;
+    display: inline-block;
+    width: 117px;
+    height: 56px;
+    border-radius: 35px;
+}
+.contact a:hover{
+    box-shadow: 0px 0px 5px #f50057,
+                0px 0px 25px #f50057,
+                0px 0px 50px #f50057,
+                0px 0px 200px #f50057
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: 288px;
+font-size: 50px;
+letter-spacing: normal;
+color: #f50057;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutus img{
+    position: relative;
+    width: 40vw;
+    margin: 20px;
+    margin-top: 41px;
+    animation-name: ex;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+}
+@keyframes ex {
+    0% {left: -600px;}
+    25% {left: -400px;}
+    50% {left: -200px;}
+    100% {left: 0px;}
+}
+h3{
+    position: relative;
+    left: 196px;
+    margin-bottom: 315px;
+    font-size: 30px;
+}
+.stack{
+    position: relative;
+    left: -170px;
+}
+.fa-html5{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    color: rgb(227, 79, 38);
+}
+.fa-html5:hover{
+    box-shadow: 0px 0px 5px rgb(227, 79, 38) ,
+                0px 0px 25px rgb(227, 79, 38) ,
+                0px 0px 50px rgb(227, 79, 38) ,
+                0px 0px 200px rgb(227, 79, 38) ;
+}
+.fa-css3-alt{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    color: rgb(21, 114, 182);
+}
+.fa-css3-alt:hover{
+    box-shadow: 0px 0px 5px rgb(21, 114, 182) ,
+                0px 0px 25px rgb(21, 114, 182) ,
+                0px 0px 50px rgb(21, 114, 182) ,
+                0px 0px 200px rgb(21, 114, 182) ;
+}
+.fa-square-js{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    color: rgb(247, 223, 30);
+}
+.fa-square-js:hover{
+    box-shadow: 0px 0px 5px rgb(247, 223, 30) ,
+                0px 0px 25px rgb(247, 223, 30) ,
+                0px 0px 50px rgb(247, 223, 30) ,
+                0px 0px 200px rgb(247, 223, 30) ;
+}
+.fa-bootstrap{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    color:  rgb(134, 10, 251);
+}
+.fa-bootstrap:hover{
+    box-shadow: 0px 0px 5px rgb(134, 10, 251) ,
+                0px 0px 25px rgb(134, 10, 251) ,
+                0px 0px 50px rgb(134, 10, 251) ,
+                0px 0px 200px rgb(134, 10, 251) ;
+}
+.fa-angular{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(221, 0, 49);
+    border-radius: 30px;
+}
+.fa-angular:hover{
+    box-shadow: 0px 0px 5px rgb(221, 0, 49) ,
+                0px 0px 25px rgb(221, 0, 49) ,
+                0px 0px 50px rgb(221, 0, 49) ,
+                0px 0px 200px rgb(221, 0, 49) ;
+}
+.fa-vuejs{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(66, 184, 131);
+    border-radius: 30px;
+}
+.fa-vuejs:hover{
+    box-shadow: 0px 0px 5px rgb(66, 184, 131) ,
+                0px 0px 25px rgb(66, 184, 131) ,
+                0px 0px 50px rgb(66, 184, 131) ,
+                0px 0px 200px rgb(66, 184, 131) ;
+}
+.fa-react{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(97, 218, 251);
+    border-radius: 30px;
+}
+.fa-react:hover{
+    box-shadow: 0px 0px 5px rgb(97, 218, 251) ,
+                0px 0px 25px rgb(97, 218, 251) ,
+                0px 0px 50px rgb(97, 218, 251) ,
+                0px 0px 200px rgb(97, 218, 251) ;
+}
+.fa-android{
+    font-size: 50px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(61, 223, 30);
+    border-radius: 30px;
+}
+.fa-android:hover{
+    box-shadow: 0px 0px 5px rgb(61, 223, 30) ,
+                0px 0px 25px rgb(61, 223, 30) ,
+                0px 0px 50px rgb(61, 223, 30) ,
+                0px 0px 200px rgb(61, 223, 30) ;
+}
+
+#animate-text{
+    height: 100px;
+    border-top: 1px solid #f50057;
+    border-bottom: 2px solid #f50057;
+    margin: 80px 0px;
+    width: 100%;
+    padding: 10px 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+#animate-text::-webkit-scrollbar{
+    display: none;
+}
+#animate-text h1{
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    animation-name: scrollText;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#animate-text h1 span{
+    background-color: #f50057;
+    color: black;
+    display: inline-block;
+    margin: 0px 5px;
+    height: 60px;
+    padding: 0px 10px;  
+}
+
+@keyframes scrollText {
+    
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+
+
+
+/* media queries  */
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  /* Header */
+  p {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    margin-left: 0;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar li a {
+    padding: 10px 15px;
+  }
+
+  /* Section */
+  section img {
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .bio {
+    margin-top: -167px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .social {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-instagram,
+  .fa-square-facebook,
+  .fa-github,
+  .fa-linkedin,
+  .fa-google {
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .contact {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    margin: 50px;
+  }
+
+  .contact a {
+    font-size: 14px;
+    padding: 12px;
+    width: 100px;
+    height: 40px;
+  }
+
+  /* About */
+  .about {
+    margin-top: 50px;
+  }
+
+  h2 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  /* About Us */
+  .aboutus img {
+    width: 90vw;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    left: 0;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  .stack {
+    left: 0;
+  }
+
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-square-js,
+  .fa-bootstrap,
+  .fa-angular,
+  .fa-vuejs,
+  .fa-react {
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Header */
+  p {
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .navbar li a {
+    padding: 15px 20px;
+  }
+
+  /* Section */
+  section img {
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+  }
+
+  .bio {
+    margin-top: -277px;
+    font-size: 18px;
+    margin-left: 500px;
+  }
+
+  .social {
+    right: 8%;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .contact {
+    right: 155px;
+   }
+}
